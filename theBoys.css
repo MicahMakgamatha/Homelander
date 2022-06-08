@@ -1,0 +1,275 @@
+
+ /* beginning of home page */
+
+body
+{
+   background-color: gray;
+}
+h1
+{
+    text-align: center;
+}
+
+.the7
+{
+    margin-top:0%;
+    text-align: center;
+    background-color: #9F0028;
+    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.homelanderhomepic
+{
+
+  text-align: center;
+
+  border-radius: 10%;
+
+  box-shadow: rgba(65, 31, 121, 0.911);
+  
+    
+}
+
+
+
+
+
+.homeNav
+{
+    margin-top: 1%;
+
+    font-size: 2rem;
+    justify-content: space-around;
+   margin-left: 80%;
+   
+}
+
+nav a 
+{
+    margin:10px;
+
+}
+
+
+a:link
+{
+    text-decoration: none;
+
+}
+
+a:visited 
+{
+    color:blue;
+    font-weight: normal;
+}
+
+a:hover 
+ {
+     color:orange;
+     text-decoration: underline;
+     background-color: black;
+   
+ }
+
+ .super
+ {
+     display: inline;
+     display: block;
+ }
+
+ .ab
+{
+    padding-left: 2.4%;
+    font-size: 3rem;
+}
+
+
+
+
+
+/* end of home page */
+
+/* ======================================================= */
+
+/* beginning of wiki */
+
+
+
+
+.WikiHeader
+{
+   border-top:black solid 2px;
+   border-bottom:black solid 2px;
+
+}
+
+iframe
+{
+  border-radius: 10%; 
+  padding-left: 2%;  
+}
+
+.wikibottomNav
+{
+   font-size: 1.3rem;
+   justify-content: space-between;
+   padding-top: 2%;
+   padding-left: 43%;
+}
+
+
+/* end of wiki */
+
+
+/* =========================================================== */
+
+
+/* beginning of wiki */
+section
+{
+    display: flex;
+}
+
+section.something
+{
+    display:block;
+}
+
+h3 
+{
+    display: inline-block;
+    margin-bottom: 0%;
+}
+
+img.pic-right{
+    margin-left: 30rem;
+}
+
+img.pic-rightQM
+{
+    margin-left: 29rem;
+}
+
+img.pic-rightStar
+{
+    margin-left: 32.4rem;
+}
+
+h3.heading-right{
+    margin-left: 68rem;
+}
+
+h3.heading-rightQueen
+{
+    margin-left: 65rem;
+}
+
+img.pic-middle
+{
+    margin-left: 35rem;
+}
+
+.heading-middle
+{
+    margin-left: 42.5rem;
+}
+
+
+.righthead-middle
+{
+    margin-left: 8rem;
+}
+
+.stormBio
+{
+    flex-flow:wrap;
+    width: 30rem;
+}
+
+.TeamNav
+{
+    font-size: 2rem;
+    margin-left: 77%;
+}
+
+section img:hover,.pic-rightQM:hover,.pic-right:hover,.pic-rightStar:hover,.pic-middle:hover
+{
+    transition: 1s;
+    transform: scale(1.3);
+    border-radius: 10%;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+/* end of team */
+
+/* ======================================================================== */
+
+
+/* beginning of contact page */
+
+fieldset
+{
+    border-radius: 10px;
+    margin-bottom: 0.8rem;
+    border: none;
+  
+}
+
+label
+{
+   display: block; 
+   margin-top: 1.5rem;   
+}
+
+button
+{
+    margin-left: 37%;
+    border-radius: 10px;
+}
+
+button:hover
+{
+    transition: 1s;
+    transform: scale(2);
+}
+
+
+.map
+{
+    
+    margin-bottom: 20%;
+}
+.wrappie
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-left: 8%;
+}
+
+.vought
+{
+    padding-right: 20rem;
+    margin-right: 1rem;
+}
+
+
+.contactNav
+{
+    font-size: 2rem;
+    margin-bottom: 0rem;
+    /* margin-left: 40%; */
+    background-color: #9F0028;
+    text-align: center;
+}
+
+/* end of contact page */
